@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,500&display=swap');
+
+body{
+    background-color:beige;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 89px;
+    background-color: black;
+    color: white;
+
+}
+.brand img{
+    width: 75px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url('https://wallpaperaccess.com/full/2527066.jpg');
+} 
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 16px;
+}
+.icons i{
+   cursor: pointer;
+}
+#PlayBar{
+    width: 50vw;
+    cursor: pointer;
+}
+.songitem{
+   height: 50px;
+   display: flex;
+   background-color:dimgrey;
+   width: 125%;
+   color: white;
+   margin: 12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 12px;
+}
+.songitem img{
+  width: 45px;
+  margin: 0 23px;
+  border-radius: 23px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+   cursor: pointer;
+}
+.songitemcontainer{
+      margin-top: 34px;
+}
+.songgif{
+    position: absolute;
+    left: 0vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.songgif img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
